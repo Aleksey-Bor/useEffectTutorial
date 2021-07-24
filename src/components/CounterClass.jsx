@@ -23,7 +23,7 @@ class CounterClass extends Component {
   render() {
     return (
       <div>
-        <p>You clicked {this.state.count} times</p>
+        <p>Class component: You clicked {this.state.count} times</p>
         <button
           onClick={() =>
             this.setState({

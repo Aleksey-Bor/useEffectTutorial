@@ -11,7 +11,7 @@ function CounterFunction() {
 
   return (
     <div>
-      <p>You clicked {count} times</p>
+      <p>Function component: You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   );
