@@ -5,20 +5,26 @@ class CounterClass extends Component {
     count: 0,
   };
 
-  componentDidMount() {
+/*   componentDidMount() {
     const count = this.state.count;
     setTimeout(() => {
-      console.log('componentDidMount: ', `You clicked ${count} times`);
+      console.log("componentDidMount: ", `You clicked ${count} times`);
     }, 3000);
   }
 
   componentDidUpdate() {
     const count = this.state.count;
     setTimeout(() => {
-      console.log('componentDidUpdate from closure: ',`You clicked ${count} times`); // comment
-      // console.log('componentDidUpdate from state: ',`You clicked ${this.state.count} times`);  uncomment
+      console.log(
+        "componentDidUpdate from closure: ",
+        `You clicked ${count} times`
+      );
+      console.log(
+        "componentDidUpdate from state: ",
+        `You clicked ${this.state.count} times`
+      );
     }, 3000);
-  }
+  } */
 
   render() {
     return (

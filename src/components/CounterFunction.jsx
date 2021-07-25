@@ -6,9 +6,9 @@ function CounterFunction() {
 
   useEffect(() => {
     latestCount.current = count;
-    setTimeout(() => {
+/*     setTimeout(() => {
       console.log('useEffect: ',`You clicked ${latestCount.current} times`);
-    }, 3000);
+    }, 3000); */
   });
 
   return (
