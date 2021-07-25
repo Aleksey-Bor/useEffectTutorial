@@ -2,6 +2,7 @@ import "./App.css";
 import CounterFunction from "./components/CounterFunction";
 import CounterClass from "./components/CounterClass";
 import Greeting from "./components/Greeting";
+import Counter from "./components/Counter";
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
         <Greeting name="Nastya"  /> {/* Попрообовать передать другое имя и посмотреть,
         на зкладке браузера */}
       </div>
-      
+      <div>
+        <Counter />
+      </div>
     </div>
   );
 }
