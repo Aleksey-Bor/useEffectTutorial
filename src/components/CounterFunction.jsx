@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 function CounterFunction() {
   const [count, setCount] = useState(0);
+  const latestCount = useRef(count);
 
   useEffect(() => {
+    latestCount.current = count;
     setTimeout(() => {
-      console.log('useEffect: ',`You clicked ${count} times`);
+      console.log('useEffect: ',`You clicked ${latestCount.current} times`);
     }, 3000);
   });
 

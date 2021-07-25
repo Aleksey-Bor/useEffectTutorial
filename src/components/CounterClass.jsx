@@ -15,8 +15,8 @@ class CounterClass extends Component {
   componentDidUpdate() {
     const count = this.state.count;
     setTimeout(() => {
-      console.log('componentDidUpdate from closure: ',`You clicked ${count} times`);
-      console.log('componentDidUpdate from state: ',`You clicked ${this.state.count} times`);
+      console.log('componentDidUpdate from closure: ',`You clicked ${count} times`); // comment
+      // console.log('componentDidUpdate from state: ',`You clicked ${this.state.count} times`);  uncomment
     }, 3000);
   }
 
